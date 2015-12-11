@@ -1,0 +1,1 @@
+This is a training to reproduce The Viking E-Commerce website
