@@ -6,6 +6,9 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
 
 
 
@@ -15,7 +18,7 @@ NavBar
 
 nav {
 	width: 100%;
-	height: 50px;
+	height: 70px;
 	border-bottom: 2px solid #854A14;
 } 
 
@@ -30,7 +33,7 @@ nav h2,
 nav img,
 nav h3 {
 	display: inline-block;
-	line-height: 50px;
+	line-height: 70px;
 	color: #854A14;
 }
 
@@ -68,14 +71,15 @@ Hero Feature
 	height: 700px;
 	background: url("assets/background/viking_ship_background_medium.jpg");
 	background-size: cover;
+	background-position: 50% 0;
 	padding: 1px 0;
 }
 
 
 .main-title-container {
-	margin-top: 100px;
+	margin-top: 130px;
 	padding: 50px 0;
-	background: -webkit-linear-gradient(left, #854A14 65%, #0F94B2);
+	background: rgba(0,0,0,0.9);
 }
 
 
@@ -88,14 +92,16 @@ Hero Feature
 	color: #0F94B2;
 }
 
+
 .hero-container .hero-second-title {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 250px;
 	background: rgba(0,0,0,.8);
-	background: linear-gradient(rgba(0,0,0,0), rgb(0,0,0));
+	background: linear-gradient(rgba(0,0,0,0), rgb(0,0,0)80%);
 }
+
 
 .hero-second-title h2 {
 	font-size: 30px;
@@ -106,11 +112,13 @@ Hero Feature
 	letter-spacing: 5px;
 }
 
+
 .second-title {
 	font-size: 30px;
 	text-align: center;
 	border-bottom: 1px solid #555;
 }
+
 
 .second-title h2 {
 	padding: 15px 0;
@@ -118,15 +126,82 @@ Hero Feature
 }
 
 
+/*=================================
+Shop Feature
+===================================*/
+
+.shop-container {
+	width: 90%;
+	margin: 0 auto;
+}
 
 
+.shop-container li {
+	display: inline-block;
+	width: 30%;
+	height: 300px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background: #222;
+	text-align: center;
+	float: left;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+}
 
 
+.shop-container h3 {
+	padding: 20px 0;
+	color: white;
+}
 
 
+.shop-container .image-container {
+	position: relative;
+	height: 200px;
+	margin: 0 auto;
+	background: white;
+}
 
 
+.shop-container img {
+	height: 90%;
+	margin: 10px auto;
+}
 
+
+.image-container h4 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px;
+	border: 1px solid #eee;
+}
+
+
+.shop-container button {
+	font-size: 12px;
+	padding: 10px 15px;
+	background: #2ea9b1;
+	color: white;
+	border: 0;
+}
+
+
+.pagination {
+	text-align: center;
+	margin: 30px auto;
+}
+
+.pagination li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.pagination .selected {
+	color: black;
+	text-decoration: underline;
+}
 
 
 
