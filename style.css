@@ -1,0 +1,135 @@
+/*=================================
+General Styling
+===================================*/
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/*=================================
+NavBar
+===================================*/
+
+nav {
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #854A14;
+} 
+
+
+.navbar-container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+nav h2,
+nav img,
+nav h3 {
+	display: inline-block;
+	line-height: 50px;
+	color: #854A14;
+}
+
+
+nav h2 {
+	font-size: 24px;
+	float: left;
+}
+
+
+nav .shopping-cart {
+	float: right;
+}
+
+
+nav img {
+	height: 30px;
+	width: 30;
+	vertical-align: middle;
+}
+
+
+nav h3 {
+	font-size: 16px;
+}
+
+
+/*=================================
+Hero Feature
+===================================*/
+
+.hero-container {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background: url("assets/background/viking_ship_background_medium.jpg");
+	background-size: cover;
+	padding: 1px 0;
+}
+
+
+.main-title-container {
+	margin-top: 100px;
+	padding: 50px 0;
+	background: -webkit-linear-gradient(left, #854A14 65%, #0F94B2);
+}
+
+
+.hero-container h1 {
+	font-size: 70px;
+	font-weight: 900;
+	letter-spacing: -3px;
+	text-align: center;
+	padding: 70px auto;
+	color: #0F94B2;
+}
+
+.hero-container .hero-second-title {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 250px;
+	background: rgba(0,0,0,.8);
+	background: linear-gradient(rgba(0,0,0,0), rgb(0,0,0));
+}
+
+.hero-second-title h2 {
+	font-size: 30px;
+	color: #0F94B2;
+	text-align: center;
+	padding-top: 155px;
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+
+.second-title {
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+
+.second-title h2 {
+	padding: 15px 0;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
